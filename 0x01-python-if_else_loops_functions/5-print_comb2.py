@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for i in range(0, 99):
-    print("{:02d}".format(i), end=', ')
-print("{:02d}".format(i + 1))
+for decimal in range(0, 100):
+    if decimal < 99:
+        print("{:02d},".format(decimal), end=' ')
+print("{}".format(decimal))

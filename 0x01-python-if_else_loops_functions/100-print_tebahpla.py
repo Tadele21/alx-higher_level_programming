@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-for i in range(26):
-    if i % 2 == 0:
-        print('{:c}'.format(122 - i), end='')
-    else:
-        print('{:c}'.format(90 - i), end='')
+for ch in range(ord('z'), ord('a') - 1, -1):
+    print("{:c}".format(ch if ch % 2 == 0 else ch - 32), end="")
