@@ -3,7 +3,8 @@
 
 /**
  * print_python_list_info - gives data of the PyListObject
- * @p: PyObject
+ *
+ * @p: the PyObject
  */
 
 void print_python_list_info(PyObject *p)
