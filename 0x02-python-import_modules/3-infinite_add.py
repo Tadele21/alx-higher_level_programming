@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    sumOfArgs = 0
+    suma = 0
     i = 0
-    for arg in sys.argv:
+    for a in sys.argv:
         if i > 0:
-            sumOfArgs += int(arg)
+            suma += int(a)
         i += 1
-    print(sumOfArgs)
+    print(suma)
